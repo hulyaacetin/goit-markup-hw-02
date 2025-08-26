@@ -1,9 +1,14 @@
+:root {
+    --font-body: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+    --font-heading: "Raleway", "Roboto", Arial, sans-serif;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #000;
-    font-weight: regular;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 60px;
+    line-height: 3.75;
     letter-spacing: 0.02em;
 }
 
@@ -11,15 +16,15 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     letter-spacing: 0.03em;
-    line-height: 21px;
+    line-height: 1.167;
     padding: 5px 5px;
     text-decoration: none;
 }
 
 .link {
-    font-weight: regular;
+    font-weight: 400;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 1.33;
     letter-spacing: 0.04em;
     text-decoration: underline;
 }
@@ -35,7 +40,7 @@ div1 {
 .site-nav {
     background-color: #E7E9FC;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     list-style: none;
     display: flex;
@@ -48,17 +53,17 @@ header .link:hover {
 h1 {
     color: #FFFFFF;
     font-size: 56px;
-    font-weight: bold;
+    font-weight: 700;
     background-color: #2E2F42;
     letter-spacing: 0.02em;
-    line-height: 60px;
+    line-height: 1.071;
 }
 
 .bttn {
     cursor: pointer;
-    font-weight: medium;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     width: 169px;
     height: 56px;
@@ -86,13 +91,13 @@ ul {
 }
 
 h2 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;
 }
 
 h3 {
-    font-weight: medium;
+    font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
 }
@@ -113,6 +118,30 @@ section2 {
     background-color: #F4F4FD;
 }
 
+section3{
+    width: 1128px;
+    height: 1000px;
+    top: 1868px;
+    left: 156px;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #E7E9FC;
+}
+.row1{
+    position: absolute;
+    width: 1128px;
+    height: 420px;
+    top: 1980px;
+    left: 156px;
+}
+.row2{
+    position: absolute;
+    width: 1128px;
+    height: 420px;
+    top: 2448px;
+    left: 156px; 
+}
+
 footer {
     background-color: #2E2F42;
     width: 1440px;
@@ -124,6 +153,6 @@ footer {
     font-style: Regular;
     color: #F4F4FD;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
