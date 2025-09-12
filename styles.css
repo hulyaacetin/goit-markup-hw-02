@@ -26,10 +26,10 @@ body {
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.04em;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-div1 {
+div {
     background-color: #2E2F42;
     width: 1440px;
     height: 600px;
@@ -102,23 +102,21 @@ h3 {
     letter-spacing: 0.02em;
 }
 
-section1 {
+.features {
     width: 1128px;
     height: 104px;
-    position: static;
     top: 792px;
     left: 156px;
 }
 
-section2 {
+.team-section {
     width: 1440px;
     height: 732px;
-    position: static;
     top: 1016px;
     background-color: #F4F4FD;
 }
 
-section3{
+.portfolio{
     width: 1128px;
     height: 1000px;
     top: 1868px;
@@ -128,14 +126,12 @@ section3{
     border-color: #E7E9FC;
 }
 .row1{
-    position: absolute;
     width: 1128px;
     height: 420px;
     top: 1980px;
     left: 156px;
 }
 .row2{
-    position: absolute;
     width: 1128px;
     height: 420px;
     top: 2448px;
@@ -144,9 +140,6 @@ section3{
 
 footer {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 312px;
-    position: static;
     top: 2988px;
     font-family: Roboto;
     font-weight: 400;
@@ -155,4 +148,8 @@ footer {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px; 
+    height: 72px; 
+    top: 3128px; 
+    left: 156px;
 }
